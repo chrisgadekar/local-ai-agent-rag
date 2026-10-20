@@ -1,0 +1,25 @@
+@'
+# Python environments
+venv/
+venv-clean/
+venv311-test/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Local databases and vector stores
+chroma/
+chroma_db/
+chroma_db/
+*.sqlite3
+*.db
+
+# Logs and temporary files
+*.log
+.pytest_cache/
+'@ | Set-Content .gitignore
